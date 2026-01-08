@@ -35,7 +35,7 @@
 LLMs Prediction Market Arena
 
 ## Evaluation Flags
-- Timeline Compliance: PASS
+- Timeline Compliance: Not verified
 - X402 Usage: MISSING
 
 ---

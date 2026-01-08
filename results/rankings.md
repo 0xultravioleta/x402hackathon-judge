@@ -124,102 +124,18 @@
 
 | Project | Issues |
 |---------|--------|
-| x402r |  |
-| Oops!402 | Timeline concerns |
-| Synapse | Timeline concerns |
-| Pincher | Timeline concerns |
-| Slophouse Cinema | Timeline concerns |
-| x402energy | Timeline concerns |
-| OpenFacilitator | Timeline concerns |
-| Voiceswap | Timeline concerns |
-| push | Timeline concerns |
-| Agent Trust Gateway | Timeline concerns |
-| x402-AI | Timeline concerns |
-| x402AI Assistant | Timeline concerns |
-| Ora402 | Timeline concerns |
-| RekonGG | Timeline concerns |
-| LinkSignX402 | Timeline concerns |
-| x402-escrow | Timeline concerns |
-| xByte | Timeline concerns |
-| Vega Protocol | Timeline concerns |
-| x402 Swarm | Timeline concerns |
-| x402-exec Extensions - Enable on-chain Contract Calls for Agents | Timeline concerns |
-| MicroAi-PayGate | Timeline concerns |
-| Grantees | Timeline concerns |
-| Polymarket AI Agent by BlockRunAI | Timeline concerns |
-| Polymarket AI Agent By @BlockrunAI | Timeline concerns |
-| yoda.gg | Timeline concerns |
-| x402 Economic Load Balancer | Timeline concerns |
-| nanoPay | Timeline concerns |
-| yoda.fun | Timeline concerns |
-| Bloom Protocol - Bloom Mission Bot | Timeline concerns |
-| x402 Proxy | Timeline concerns |
-| X402 Paywall Builder | Timeline concerns |
-| everybid | Timeline concerns |
-| Nexus Protocol | Timeline concerns |
-| PredictOS - Prediction Market Intelligence | Timeline concerns |
-| Cumulus | Timeline concerns |
-| x402 Paywall | Timeline concerns |
-| x402 answer book | Timeline concerns |
-| WebAuthn x 402 | Timeline concerns |
-| Fortuner | Timeline concerns |
-| Fortuner | Timeline concerns |
-| Turnstile Pay — RaidGuild x402 Facilitator | Timeline concerns |
-| Agentokratia Marketplace | Timeline concerns |
-| Termix A2A Trading Intelligence Marketplace | Timeline concerns |
-| Attentium | Timeline concerns |
-| OIDCx402 - Micropayments for decentralized identity | Timeline concerns |
-| QueRate | Timeline concerns |
-| Hyperkit | Timeline concerns |
-| Aetherswarm | Timeline concerns |
-| Aegis402 | Timeline concerns |
-| x402-facilitator-go | Timeline concerns |
-| Aegis402 | Timeline concerns |
-| sAItoshi agent - Bitcoin chain info facilitator | Timeline concerns |
-| Mnemonic Hunt | Timeline concerns |
-| HILT: Human In Loop Transactions | Timeline concerns |
-| Googolo wallet | Timeline concerns |
-| PerkOS | Timeline concerns |
-| DSX Engine - Decentralized Dataspace Connector with x402 Payment Protocol Support | Timeline concerns |
-| Miye | Timeline concerns |
-| BiTx402 | Timeline concerns |
-| Cheddr Payment Channels x402 | Timeline concerns |
-| Brolli by Optilex | Timeline concerns |
-| x402 Kalshi Context Provider | Timeline concerns |
-| x402-sf | Timeline concerns |
-| Miraipay | Timeline concerns |
-| x402 Private Payment Router | Timeline concerns |
-| x402 Shop | Timeline concerns |
-| Simmer.Markets | Timeline concerns |
-| Texas Arena | Timeline concerns |
-| x402 Shopify App | Timeline concerns |
-| Estate Tokens-Tokenizing Real World Assets | Timeline concerns |
-| invite.markets | Timeline concerns |
-| AI Data Broker | Timeline concerns |
-| x402-guard | Timeline concerns |
-| DNS402 | Timeline concerns |
-| Autoincentive Weather Forecast /x402/ Agent | Timeline concerns |
-| aimo.bet | Timeline concerns, Missing X402 |
-| AgentECHO | Timeline concerns, Missing X402 |
-| Credpay | Timeline concerns |
-| NodusAi | Timeline concerns |
-| Project Yurei | Timeline concerns |
-| PPS - Pay per second video streaming | Timeline concerns |
-| Synapse Gateway | Timeline concerns |
-| Verifiable Green Compute Network | Timeline concerns |
-| Autostack DCA | Timeline concerns |
-| X402 Autonomous Node | Timeline concerns |
-| VELO | Timeline concerns, Missing X402 |
-| Agent-Native Public Goods Sustainability | Timeline concerns |
-| SongCast | Timeline concerns |
-| medicProof | Timeline concerns, Missing X402 |
-| Bluepages.fyi | Timeline concerns |
-| Route402 | Timeline concerns |
-| x402 Singularity Layer | Timeline concerns |
-| MBCompass | Timeline concerns, Missing X402 |
-| AgentARC | Timeline concerns, Missing X402 |
-| PolyPick6.com | Timeline concerns, Missing X402 |
-| ONE – 47-line morphing app + x402 payments | Timeline concerns |
+| AgentARC | Missing X402 |
+| AgentECHO | Missing X402 |
+| DSX Engine - Decentralized Dataspace Connector with x402 Payment Protocol Support | Timeline violation (90%+ pre-existing) |
+| MBCompass | Timeline violation (90%+ pre-existing), Missing X402 |
+| Miye | Timeline violation (90%+ pre-existing) |
+| Ora402 | Timeline violation (90%+ pre-existing) |
+| PolyPick6.com | Missing X402 |
+| VELO | Timeline violation (90%+ pre-existing), Missing X402 |
+| aimo.bet | Missing X402 |
+| medicProof | Timeline violation (90%+ pre-existing), Missing X402 |
+| x402 Economic Load Balancer | Timeline violation (90%+ pre-existing) |
+| x402energy | Timeline violation (90%+ pre-existing) |
 
 ## Skipped Projects
 

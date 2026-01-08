@@ -1,5 +1,7 @@
 # Unused/archived files
 .unused/
+commit_analysis.csv
+submissions.csv
 
 # Python
 __pycache__/

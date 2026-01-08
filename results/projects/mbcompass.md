@@ -40,7 +40,7 @@ As of now, MBCompass was top compass app for Android on Google "best compass app
 https://www.google.com/search?q=best+foss+compass+app+for+android
 
 ## Evaluation Flags
-- Timeline Compliance: PASS
+- Timeline Compliance: CRITICAL (99.1% pre-existing commits)
 - X402 Usage: MISSING
 
 ---

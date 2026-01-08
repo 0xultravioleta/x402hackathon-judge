@@ -34,7 +34,7 @@
 AgentARC is an free and open-source security layer for AI agents that transact on-chain. It validates every transaction through intent analysis, deterministic policies, transaction simulation, honeypot detection, and optional LLM-based threat analysis, blocking unsafe execution before funds are signed or broadcast. Designed as a drop-in wrapper for Coinbase AgentKit agents.
 
 ## Evaluation Flags
-- Timeline Compliance: PASS
+- Timeline Compliance: Not verified
 - X402 Usage: MISSING
 
 ---

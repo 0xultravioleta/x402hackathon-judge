@@ -37,7 +37,7 @@
 A free and open-source analytics engine for API vendors. AgentECHO visualizes blocked AI traffic and calculates the "Hidden Cost" of 403 errors, providing a transparent, community-led solution to reveal lost revenue.
 
 ## Evaluation Flags
-- Timeline Compliance: PASS
+- Timeline Compliance: Not verified
 - X402 Usage: MISSING
 
 ---

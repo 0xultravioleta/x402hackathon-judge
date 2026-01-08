@@ -36,7 +36,7 @@ Parlays for Polymarket
 - We drew inspiration from Horse Betting to frame these parlays on Polymarket. By using pools and multiple users, we’re able to offer better payout than traditional parlays
 
 ## Evaluation Flags
-- Timeline Compliance: PASS
+- Timeline Compliance: Not verified
 - X402 Usage: MISSING
 
 ---
