@@ -1,0 +1,537 @@
+{
+  "timeline_violations": [
+    {
+      "project": "nanoPay",
+      "github_url": "https://github.com/mbarbosa30/x4llet",
+      "commits_before": 1403,
+      "total_commits": 2690,
+      "percent_before": 52.2,
+      "current_score": 8.17,
+      "current_rank": 20
+    },
+    {
+      "project": "x402 Economic Load Balancer",
+      "github_url": "https://github.com/marcelosalloum/x402",
+      "commits_before": 316,
+      "total_commits": 316,
+      "percent_before": 100.0,
+      "current_score": 8.18,
+      "current_rank": 20
+    },
+    {
+      "project": "VELO",
+      "github_url": "https://github.com/GoSTEAN/velo",
+      "commits_before": 210,
+      "total_commits": 218,
+      "percent_before": 96.3,
+      "current_score": 5.6,
+      "current_rank": 86
+    },
+    {
+      "project": "MBCompass",
+      "github_url": "https://github.com/CompassMB/MBCompass",
+      "commits_before": 210,
+      "total_commits": 212,
+      "percent_before": 99.1,
+      "current_score": 4.96,
+      "current_rank": 93
+    },
+    {
+      "project": "x402-exec Extensions - Enable on-chain Contract Calls for Agents",
+      "github_url": "https://github.com/nuwa-protocol/x402-exec",
+      "commits_before": 175,
+      "total_commits": 249,
+      "percent_before": 70.3,
+      "current_score": 8.23,
+      "current_rank": 20
+    },
+    {
+      "project": "Oops!402",
+      "github_url": "https://github.com/Oops402/oops402",
+      "commits_before": 109,
+      "total_commits": 127,
+      "percent_before": 85.8,
+      "current_score": 9.6,
+      "current_rank": 1
+    },
+    {
+      "project": "RekonGG",
+      "github_url": "https://github.com/BadGenius22/Rekon",
+      "commits_before": 89,
+      "total_commits": 246,
+      "percent_before": 36.2,
+      "current_score": 8.42,
+      "current_rank": 4
+    },
+    {
+      "project": "x402energy",
+      "github_url": "https://github.com/2satoshy/micasa",
+      "commits_before": 82,
+      "total_commits": 86,
+      "percent_before": 95.3,
+      "current_score": 8.57,
+      "current_rank": 4
+    },
+    {
+      "project": "xByte",
+      "github_url": "https://github.com/Arvmor/xByte",
+      "commits_before": 71,
+      "total_commits": 372,
+      "percent_before": 19.1,
+      "current_score": 8.33,
+      "current_rank": 17
+    },
+    {
+      "project": "Miye",
+      "github_url": "https://github.com/kingksjo/swap-agent",
+      "commits_before": 57,
+      "total_commits": 57,
+      "percent_before": 100.0,
+      "current_score": 7.12,
+      "current_rank": 56
+    },
+    {
+      "project": "yoda.gg",
+      "github_url": "https://github.com/grmkris/yoda.fun",
+      "commits_before": 44,
+      "total_commits": 186,
+      "percent_before": 23.7,
+      "current_score": 8.21,
+      "current_rank": 20
+    },
+    {
+      "project": "yoda.fun",
+      "github_url": "https://github.com/grmkris/yoda.fun",
+      "commits_before": 44,
+      "total_commits": 186,
+      "percent_before": 23.7,
+      "current_score": 8.06,
+      "current_rank": 28
+    },
+    {
+      "project": "Brolli by Optilex",
+      "github_url": "https://github.com/Optilex-Labs/brolli-x402",
+      "commits_before": 33,
+      "total_commits": 58,
+      "percent_before": 56.9,
+      "current_score": 7.04,
+      "current_rank": 56
+    },
+    {
+      "project": "Grantees",
+      "github_url": "https://github.com/EstherLavender/Grantee",
+      "commits_before": 26,
+      "total_commits": 89,
+      "percent_before": 29.2,
+      "current_score": 8.22,
+      "current_rank": 20
+    },
+    {
+      "project": "x402 Kalshi Context Provider",
+      "github_url": "https://github.com/gurubazawada/Kalshi-x402-contextprovider",
+      "commits_before": 26,
+      "total_commits": 31,
+      "percent_before": 83.9,
+      "current_score": 7.04,
+      "current_rank": 56
+    },
+    {
+      "project": "Ora402",
+      "github_url": "https://github.com/kracked-dev/ora-foro-to",
+      "commits_before": 20,
+      "total_commits": 20,
+      "percent_before": 100.0,
+      "current_score": 8.44,
+      "current_rank": 4
+    },
+    {
+      "project": "PPS - Pay per second video streaming",
+      "github_url": "https://github.com/pblvrt/pps",
+      "commits_before": 18,
+      "total_commits": 51,
+      "percent_before": 35.3,
+      "current_score": 6.12,
+      "current_rank": 80
+    },
+    {
+      "project": "Agent Trust Gateway",
+      "github_url": "https://github.com/nagavaishak/agent-trust-gateway",
+      "commits_before": 12,
+      "total_commits": 17,
+      "percent_before": 70.6,
+      "current_score": 8.5,
+      "current_rank": 4
+    },
+    {
+      "project": "DSX Engine - Decentralized Dataspace Connector with x402 Payment Protocol Support",
+      "github_url": "https://github.com/blockchain-lab-um/dataspaces-front-end-demo",
+      "commits_before": 11,
+      "total_commits": 11,
+      "percent_before": 100.0,
+      "current_score": 7.12,
+      "current_rank": 56
+    },
+    {
+      "project": "Polymarket AI Agent by BlockRunAI",
+      "github_url": "https://github.com/BlockRunAI/polymarket-agent",
+      "commits_before": 8,
+      "total_commits": 56,
+      "percent_before": 14.3,
+      "current_score": 8.22,
+      "current_rank": 20
+    },
+    {
+      "project": "Polymarket AI Agent By @BlockrunAI",
+      "github_url": "https://github.com/BlockRunAI/polymarket-agent.git",
+      "commits_before": 8,
+      "total_commits": 56,
+      "percent_before": 14.3,
+      "current_score": 8.22,
+      "current_rank": 20
+    },
+    {
+      "project": "Autoincentive Weather Forecast /x402/ Agent",
+      "github_url": "https://github.com/Concorde89/autoincentive",
+      "commits_before": 6,
+      "total_commits": 7,
+      "percent_before": 85.7,
+      "current_score": 6.48,
+      "current_rank": 75
+    },
+    {
+      "project": "x402-AI",
+      "github_url": "https://github.com/mitgajera/x402-ai",
+      "commits_before": 5,
+      "total_commits": 31,
+      "percent_before": 16.1,
+      "current_score": 8.46,
+      "current_rank": 4
+    },
+    {
+      "project": "medicProof",
+      "github_url": "https://github.com/juanitourquiza/medicProof",
+      "commits_before": 4,
+      "total_commits": 4,
+      "percent_before": 100.0,
+      "current_score": 5.46,
+      "current_rank": 89
+    },
+    {
+      "project": "Vega Protocol",
+      "github_url": "https://github.com/useVega/vega-protocol",
+      "commits_before": 3,
+      "total_commits": 6,
+      "percent_before": 50.0,
+      "current_score": 8.3,
+      "current_rank": 17
+    },
+    {
+      "project": "Attentium",
+      "github_url": "https://github.com/blockpal1/Real-Time-Human-Attention-Marketplace.git",
+      "commits_before": 1,
+      "total_commits": 144,
+      "percent_before": 0.7,
+      "current_score": 7.49,
+      "current_rank": 42
+    },
+    {
+      "project": "DNS402",
+      "github_url": "https://github.com/dns402/dns402",
+      "commits_before": 1,
+      "total_commits": 2,
+      "percent_before": 50.0,
+      "current_score": 6.56,
+      "current_rank": 70
+    }
+  ],
+  "x402_mismatches": [],
+  "network_data": [
+    {
+      "project": "Oops!402",
+      "networks": "Base"
+    },
+    {
+      "project": "Synapse",
+      "networks": "Base"
+    },
+    {
+      "project": "Pincher",
+      "networks": "Base Sepolia"
+    },
+    {
+      "project": "Slophouse Cinema",
+      "networks": "Solana"
+    },
+    {
+      "project": "x402energy",
+      "networks": "Base"
+    },
+    {
+      "project": "OpenFacilitator",
+      "networks": "base-sepolia, Ethereum"
+    },
+    {
+      "project": "Voiceswap",
+      "networks": "Unichain"
+    },
+    {
+      "project": "push",
+      "networks": "Base, Ethereum, Polygon, Arbitrum, Optimism, Avalanche, BSC"
+    },
+    {
+      "project": "Agent Trust Gateway",
+      "networks": "Avalanche"
+    },
+    {
+      "project": "x402-AI",
+      "networks": "Solana"
+    },
+    {
+      "project": "x402AI Assistant",
+      "networks": "Base"
+    },
+    {
+      "project": "Ora402",
+      "networks": "Solana"
+    },
+    {
+      "project": "RekonGG",
+      "networks": "Polymarket"
+    },
+    {
+      "project": "x402-escrow",
+      "networks": "Base Mainnet, Base Sepolia"
+    },
+    {
+      "project": "xByte",
+      "networks": "Avalanche"
+    },
+    {
+      "project": "Vega Protocol",
+      "networks": "Base, Base Sepolia, Arbitrum, Ethereum, Solana"
+    },
+    {
+      "project": "x402 Swarm",
+      "networks": "Gnosis Chain, Base, Swarm"
+    },
+    {
+      "project": "x402-exec Extensions - Enable on-chain Contract Calls for Agents",
+      "networks": "Base Sepolia, X-Layer Testnet, SKALE Base Sepolia, BSC Testnet, Base Mainnet, X-Layer Mainnet, BSC Mainnet, Ethereum Mainnet"
+    },
+    {
+      "project": "MicroAi-PayGate",
+      "networks": "Base"
+    },
+    {
+      "project": "Grantees",
+      "networks": "Avalanche"
+    },
+    {
+      "project": "Polymarket AI Agent by BlockRunAI",
+      "networks": "Base, Polygon"
+    },
+    {
+      "project": "Polymarket AI Agent By @BlockrunAI",
+      "networks": "Base, Polygon"
+    },
+    {
+      "project": "yoda.gg",
+      "networks": "Base, Solana"
+    },
+    {
+      "project": "nanoPay",
+      "networks": "Base, Celo, Gnosis, Arbitrum"
+    },
+    {
+      "project": "yoda.fun",
+      "networks": "Base, Solana"
+    },
+    {
+      "project": "Bloom Protocol - Bloom Mission Bot",
+      "networks": "Base"
+    },
+    {
+      "project": "everybid",
+      "networks": "Ethereum, Base"
+    },
+    {
+      "project": "Nexus Protocol",
+      "networks": "Base Sepolia"
+    },
+    {
+      "project": "PredictOS - Prediction Market Intelligence",
+      "networks": "Kalshi, Polymarket, Solana, Base"
+    },
+    {
+      "project": "Cumulus",
+      "networks": "Base Sepolia"
+    },
+    {
+      "project": "x402 Paywall",
+      "networks": "Base, Base Sepolia"
+    },
+    {
+      "project": "x402 answer book",
+      "networks": "Base, Base Sepolia"
+    },
+    {
+      "project": "Turnstile Pay \u2014 RaidGuild x402 Facilitator",
+      "networks": "Ethereum, Base, Sepolia, Base Sepolia"
+    },
+    {
+      "project": "Agentokratia Marketplace",
+      "networks": "Ethereum, Base"
+    },
+    {
+      "project": "Termix A2A Trading Intelligence Marketplace",
+      "networks": "Base"
+    },
+    {
+      "project": "Attentium",
+      "networks": "Solana"
+    },
+    {
+      "project": "QueRate",
+      "networks": "Base Sepolia, Base"
+    },
+    {
+      "project": "Hyperkit",
+      "networks": "Ethereum, Metis, Mantle, Avalanche, Solana, Sui"
+    },
+    {
+      "project": "Aetherswarm",
+      "networks": "Base, Polygon"
+    },
+    {
+      "project": "Aegis402",
+      "networks": "Sepolia"
+    },
+    {
+      "project": "x402-facilitator-go",
+      "networks": "Ethereum, Base, Sepolia, Base Sepolia"
+    },
+    {
+      "project": "Aegis402",
+      "networks": "Sepolia"
+    },
+    {
+      "project": "sAItoshi agent - Bitcoin chain info facilitator",
+      "networks": "Base, Solana"
+    },
+    {
+      "project": "Mnemonic Hunt",
+      "networks": "Base"
+    },
+    {
+      "project": "PerkOS",
+      "networks": "Ethereum, Base, Avalanche"
+    },
+    {
+      "project": "Miye",
+      "networks": "Base"
+    },
+    {
+      "project": "BiTx402",
+      "networks": "Base"
+    },
+    {
+      "project": "Cheddr Payment Channels x402",
+      "networks": "Hardhat"
+    },
+    {
+      "project": "Brolli by Optilex",
+      "networks": "Base"
+    },
+    {
+      "project": "x402 Kalshi Context Provider",
+      "networks": "Base"
+    },
+    {
+      "project": "x402-sf",
+      "networks": "Base"
+    },
+    {
+      "project": "x402 Private Payment Router",
+      "networks": "Aztec"
+    },
+    {
+      "project": "Simmer.Markets",
+      "networks": "Base"
+    },
+    {
+      "project": "Estate Tokens-Tokenizing Real World Assets",
+      "networks": "Base"
+    },
+    {
+      "project": "invite.markets",
+      "networks": "Base"
+    },
+    {
+      "project": "AI Data Broker",
+      "networks": "Base"
+    },
+    {
+      "project": "DNS402",
+      "networks": "Solana"
+    },
+    {
+      "project": "Autoincentive Weather Forecast /x402/ Agent",
+      "networks": "Solana"
+    },
+    {
+      "project": "aimo.bet",
+      "networks": "Solana"
+    },
+    {
+      "project": "Credpay",
+      "networks": "Base Sepolia"
+    },
+    {
+      "project": "NodusAi",
+      "networks": "USDC"
+    },
+    {
+      "project": "Project Yurei",
+      "networks": "Solana"
+    },
+    {
+      "project": "PPS - Pay per second video streaming",
+      "networks": "Base"
+    },
+    {
+      "project": "Synapse Gateway",
+      "networks": "Solana"
+    },
+    {
+      "project": "Autostack DCA",
+      "networks": "Base, Solana"
+    },
+    {
+      "project": "VELO",
+      "networks": "Starknet, Ethereum, Solana, Bitcoin"
+    },
+    {
+      "project": "SongCast",
+      "networks": "base"
+    },
+    {
+      "project": "medicProof",
+      "networks": "Polygon, Ethereum"
+    },
+    {
+      "project": "Bluepages.fyi",
+      "networks": "Ethereum, Base"
+    },
+    {
+      "project": "AgentARC",
+      "networks": "Base"
+    }
+  ],
+  "matched_projects": 95,
+  "unmatched_projects": [
+    {
+      "name": "x402r",
+      "github_url": "https://github.com/BackTrackCo/x402r-contracts"
+    }
+  ]
+}

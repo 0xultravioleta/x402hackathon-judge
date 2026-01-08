@@ -1,0 +1,319 @@
+"""Markdown report generator."""
+
+from datetime import datetime
+from pathlib import Path
+from typing import Optional
+
+from hackathon_judge.config import WEIGHTS
+from hackathon_judge.models import ScoredProject, EvaluationRun
+
+
+class MarkdownReporter:
+    """Generate markdown reports for evaluation results."""
+
+    def __init__(self, output_dir: str | Path):
+        self.output_dir = Path(output_dir)
+        self.output_dir.mkdir(parents=True, exist_ok=True)
+        (self.output_dir / 'projects').mkdir(exist_ok=True)
+
+    def generate_all(self, run: EvaluationRun) -> dict[str, Path]:
+        """Generate all reports."""
+        paths = {}
+
+        # Rankings matrix
+        paths['rankings'] = self.generate_rankings(run)
+
+        # Individual project reports
+        for scored in run.rankings:
+            path = self.generate_project_report(scored)
+            paths[scored.project.id] = path
+
+        # Executive summary
+        paths['summary'] = self.generate_executive_summary(run)
+
+        return paths
+
+    def generate_rankings(self, run: EvaluationRun) -> Path:
+        """Generate rankings matrix."""
+        output = []
+
+        output.append("# X402 Hackathon Rankings")
+        output.append("")
+        output.append(f"*Evaluated: {run.timestamp}*")
+        output.append("")
+
+        output.append("## Final Rankings")
+        output.append("")
+
+        # Table header
+        output.append("| Rank | Project | Demo | X402 | Quality | Complete | Innovation | **Total** |")
+        output.append("|------|---------|------|------|---------|----------|------------|-----------|")
+
+        # Table rows
+        for scored in run.rankings:
+            s = scored.scores
+            row = (
+                f"| {scored.rank} "
+                f"| [{scored.project.name}](projects/{self._sanitize_filename(scored.project.name)}.md) "
+                f"| {s.demo_functionality:.1f} "
+                f"| {s.x402_integration:.1f} "
+                f"| {s.code_quality:.1f} "
+                f"| {s.completeness:.1f} "
+                f"| {s.innovation:.1f} "
+                f"| **{scored.weighted_total:.2f}** |"
+            )
+            output.append(row)
+
+        output.append("")
+
+        # Score distribution
+        output.append("## Score Distribution")
+        output.append("")
+
+        top_tier = [p for p in run.rankings if p.weighted_total >= 8]
+        mid_tier = [p for p in run.rankings if 6 <= p.weighted_total < 8]
+        lower_tier = [p for p in run.rankings if p.weighted_total < 6]
+
+        output.append(f"- **Top Tier (8+)**: {len(top_tier)} projects")
+        output.append(f"- **Mid Tier (6-8)**: {len(mid_tier)} projects")
+        output.append(f"- **Lower Tier (<6)**: {len(lower_tier)} projects")
+        output.append("")
+
+        # Notable mentions
+        output.append("## Notable Mentions")
+        output.append("")
+
+        # Most innovative
+        if run.rankings:
+            most_innovative = max(run.rankings, key=lambda p: p.scores.innovation)
+            output.append(f"### Most Innovative")
+            output.append(f"**{most_innovative.project.name}** - Innovation score: {most_innovative.scores.innovation:.1f}")
+            output.append("")
+
+            # Best X402
+            best_x402 = max(run.rankings, key=lambda p: p.scores.x402_integration)
+            output.append(f"### Best X402 Integration")
+            output.append(f"**{best_x402.project.name}** - X402 score: {best_x402.scores.x402_integration:.1f}")
+            output.append("")
+
+            # Best demo
+            best_demo = max(run.rankings, key=lambda p: p.scores.demo_functionality)
+            output.append(f"### Best Demo")
+            output.append(f"**{best_demo.project.name}** - Demo score: {best_demo.scores.demo_functionality:.1f}")
+            output.append("")
+
+        # Flagged projects
+        flagged = [p for p in run.rankings if any(p.flags.values())]
+        if flagged:
+            output.append("## Flagged for Review")
+            output.append("")
+            output.append("| Project | Issues |")
+            output.append("|---------|--------|")
+            for p in flagged:
+                issues = []
+                if p.flags.get('timeline_issues'):
+                    issues.append("Timeline concerns")
+                if p.flags.get('missing_x402'):
+                    issues.append("Missing X402")
+                output.append(f"| {p.project.name} | {', '.join(issues)} |")
+            output.append("")
+
+        # Skipped projects
+        if run.skipped_projects:
+            output.append("## Skipped Projects")
+            output.append("")
+            for skip in run.skipped_projects:
+                output.append(f"- **{skip.get('name', 'Unknown')}**: {skip.get('reason', 'Unknown error')}")
+            output.append("")
+
+        output.append("---")
+        output.append(f"*{run.total_projects} projects evaluated on {run.timestamp}*")
+        output.append("*Generated by Hackathon Judge System*")
+
+        # Write file
+        path = self.output_dir / 'rankings.md'
+        path.write_text('\n'.join(output))
+        return path
+
+    def generate_project_report(self, scored: ScoredProject) -> Path:
+        """Generate individual project report."""
+        output = []
+        project = scored.project
+        scores = scored.scores
+
+        output.append(f"# Project Evaluation: {project.name}")
+        output.append("")
+
+        # Overview
+        output.append("## Overview")
+        output.append(f"- **Repository**: {project.github_url}")
+        output.append(f"- **Demo**: {project.demo_url or 'Not provided'}")
+
+        if scored.analysis:
+            techs = ', '.join(scored.analysis.languages + scored.analysis.frameworks)
+            output.append(f"- **Technologies**: {techs or 'Not detected'}")
+
+        output.append(f"- **Evaluated**: {datetime.now().isoformat()}")
+        output.append("")
+
+        # Scores table
+        output.append("## Scores")
+        output.append("")
+        output.append("| Category | Score | Weight | Weighted |")
+        output.append("|----------|-------|--------|----------|")
+
+        w = WEIGHTS
+        output.append(f"| Demo & Functionality | {scores.demo_functionality:.1f}/10 | {w.demo_functionality*100:.0f}% | {scores.demo_functionality * w.demo_functionality:.2f} |")
+        output.append(f"| X402 Integration | {scores.x402_integration:.1f}/10 | {w.x402_integration*100:.0f}% | {scores.x402_integration * w.x402_integration:.2f} |")
+        output.append(f"| Code Quality | {scores.code_quality:.1f}/10 | {w.code_quality*100:.0f}% | {scores.code_quality * w.code_quality:.2f} |")
+        output.append(f"| Completeness | {scores.completeness:.1f}/10 | {w.completeness*100:.0f}% | {scores.completeness * w.completeness:.2f} |")
+        output.append(f"| Innovation | {scores.innovation:.1f}/10 | {w.innovation*100:.0f}% | {scores.innovation * w.innovation:.2f} |")
+        output.append(f"| **Total** | | | **{scored.weighted_total:.2f}/10** |")
+        output.append("")
+
+        # Strengths
+        if scored.strengths:
+            output.append("## Strengths")
+            for s in scored.strengths:
+                output.append(f"- {s}")
+            output.append("")
+
+        # Weaknesses
+        if scored.weaknesses:
+            output.append("## Areas for Improvement")
+            for w in scored.weaknesses:
+                output.append(f"- {w}")
+            output.append("")
+
+        # Feedback
+        if scored.feedback:
+            output.append("## Suggestions")
+            for f in scored.feedback:
+                output.append(f"- {f}")
+            output.append("")
+
+        # Description
+        if project.description:
+            output.append("## Project Description")
+            output.append(project.description[:500])
+            if len(project.description) > 500:
+                output.append("...")
+            output.append("")
+
+        # Flags
+        output.append("## Evaluation Flags")
+
+        timeline = "PASS"
+        if scored.forensics:
+            if scored.forensics.verdict == "QUESTIONABLE":
+                timeline = "REVIEW"
+            elif scored.forensics.verdict == "INVALID":
+                timeline = "FAIL"
+
+        x402_status = "VERIFIED" if scored.x402 and scored.x402.uses_x402 else "MISSING"
+        if scored.x402 and scored.x402.uses_x402 and scored.x402.integration_score < 5:
+            x402_status = "PARTIAL"
+
+        output.append(f"- Timeline Compliance: {timeline}")
+        output.append(f"- X402 Usage: {x402_status}")
+        output.append("")
+
+        output.append("---")
+        output.append("*Generated by Hackathon Judge System*")
+
+        # Write file
+        filename = self._sanitize_filename(project.name)
+        path = self.output_dir / 'projects' / f'{filename}.md'
+        path.write_text('\n'.join(output))
+        return path
+
+    def generate_executive_summary(self, run: EvaluationRun) -> Path:
+        """Generate executive summary."""
+        output = []
+
+        output.append("# X402 Hackathon - Evaluation Summary")
+        output.append("")
+
+        # At a glance
+        output.append("## At a Glance")
+        output.append(f"- **Total Submissions**: {run.total_projects}")
+        output.append(f"- **Evaluated**: {run.evaluated}")
+        output.append(f"- **Skipped/Invalid**: {run.skipped}")
+        output.append(f"- **Average Score**: {run.average_score:.2f}/10")
+        output.append("")
+
+        # Top 5
+        output.append("## Top 5 Projects")
+        output.append("")
+        for i, scored in enumerate(run.rankings[:5], 1):
+            desc = scored.project.description[:100] if scored.project.description else "No description"
+            if len(scored.project.description or '') > 100:
+                desc += "..."
+            output.append(f"{i}. **{scored.project.name}** ({scored.weighted_total:.2f}/10)")
+            output.append(f"   {desc}")
+            output.append("")
+
+        # Key observations
+        output.append("## Key Observations")
+        output.append("")
+
+        # Trends
+        output.append("### Trends")
+        x402_count = sum(1 for p in run.rankings if p.x402 and p.x402.uses_x402)
+        output.append(f"- {x402_count}/{run.evaluated} projects integrated X402 protocol")
+
+        demo_count = sum(1 for p in run.rankings if p.project.demo_url)
+        output.append(f"- {demo_count}/{run.evaluated} projects provided live demos")
+
+        avg_quality = sum(p.scores.code_quality for p in run.rankings) / max(len(run.rankings), 1)
+        output.append(f"- Average code quality score: {avg_quality:.1f}/10")
+        output.append("")
+
+        # Common issues
+        output.append("### Common Issues")
+        no_tests = sum(1 for p in run.rankings if p.analysis and not p.analysis.has_tests)
+        output.append(f"- {no_tests} projects without tests")
+
+        weak_docs = sum(1 for p in run.rankings if p.analysis and p.analysis.readme_quality < 5)
+        output.append(f"- {weak_docs} projects with weak documentation")
+
+        missing_x402 = sum(1 for p in run.rankings if not p.x402 or not p.x402.uses_x402)
+        output.append(f"- {missing_x402} projects missing X402 integration")
+        output.append("")
+
+        # Standout innovations
+        output.append("### Standout Innovations")
+        innovative = sorted(run.rankings, key=lambda p: p.scores.innovation, reverse=True)[:3]
+        for p in innovative:
+            if p.x402 and p.x402.creative_elements:
+                output.append(f"- **{p.project.name}**: {', '.join(p.x402.creative_elements[:2])}")
+            else:
+                output.append(f"- **{p.project.name}**: High innovation score ({p.scores.innovation:.1f})")
+        output.append("")
+
+        # Recommendations
+        output.append("## Recommendations for Winners")
+        if run.rankings:
+            top = run.rankings[0]
+            output.append(f"Based on the evaluation, **{top.project.name}** leads with a score of {top.weighted_total:.2f}/10.")
+            if top.tied_with:
+                output.append(f"Note: This project is in a statistical tie with: {', '.join(top.tied_with)}")
+            output.append("Human review recommended for final decisions.")
+        output.append("")
+
+        output.append("---")
+        output.append(f"*Report generated: {datetime.now().isoformat()}*")
+        output.append("*Generated by Hackathon Judge System*")
+
+        # Write file
+        path = self.output_dir / 'executive-summary.md'
+        path.write_text('\n'.join(output))
+        return path
+
+    def _sanitize_filename(self, name: str) -> str:
+        """Convert project name to safe filename."""
+        import re
+        # Replace special chars with underscore
+        safe = re.sub(r'[^\w\s-]', '', name)
+        safe = re.sub(r'[\s]+', '_', safe)
+        return safe[:50].lower()
