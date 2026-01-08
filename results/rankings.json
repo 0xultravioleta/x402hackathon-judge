@@ -7,7 +7,7 @@
   },
   "summary": {
     "total_projects": 107,
-    "evaluated": 96,
+    "evaluated": 90,
     "skipped": 11,
     "average_score": 7.27
   },
@@ -88,7 +88,7 @@
       "pitch": "Escrow-based refund system for AI payments - use it to get your money back if an API fails or returns bad data."
     },
     {
-      "rank": 1,
+      "rank": 2,
       "project_id": "ba442911a152",
       "project_name": "Oops!402",
       "github_url": "https://github.com/Oops402/oops402",
@@ -127,7 +127,7 @@
       "pitch": "X402 payment gateway for ChatGPT and Claude - use it to let your AI agent pay for premium APIs with budget controls."
     },
     {
-      "rank": 1,
+      "rank": 3,
       "project_id": "a5839e7586d4",
       "project_name": "Synapse",
       "github_url": "https://github.com/kaustubh76/Synapse",
@@ -226,7 +226,7 @@
       "pitch": "AI-powered carpooling with crypto payments - use it to share rides and split costs automatically via x402."
     },
     {
-      "rank": 4,
+      "rank": 5,
       "project_id": "afd5f1f67cee",
       "project_name": "Slophouse Cinema",
       "github_url": "https://github.com/KurtD/x402-theater",
@@ -289,7 +289,7 @@
       "pitch": "AI-generated movie theater with pay-per-view - use it to watch endless unique short films for micropayments."
     },
     {
-      "rank": 4,
+      "rank": 6,
       "project_id": "b2c70906e531",
       "project_name": "x402energy",
       "github_url": "https://github.com/2satoshy/micasa",
@@ -352,7 +352,7 @@
       "pitch": "Energy trading marketplace for AI agents - use it to buy/sell renewable energy credits with automated payments."
     },
     {
-      "rank": 4,
+      "rank": 7,
       "project_id": "11847d3579e1",
       "project_name": "OpenFacilitator",
       "github_url": "https://github.com/rawgroundbeef/openfacilitator",
@@ -413,7 +413,7 @@
       "pitch": "Open-source x402 payment facilitator - use it to add crypto payments to any API in minutes."
     },
     {
-      "rank": 4,
+      "rank": 8,
       "project_id": "f741bcd0337c",
       "project_name": "Voiceswap",
       "github_url": "https://github.com/anthonysurfermx/voiceswap",
@@ -477,7 +477,7 @@
       "pitch": "AI voice cloning with x402 payments - use it to generate custom voiceovers and pay per generation."
     },
     {
-      "rank": 4,
+      "rank": 9,
       "project_id": "fc863356f145",
       "project_name": "push",
       "github_url": "https://github.com/privacymaxi/push",
@@ -538,7 +538,7 @@
       "pitch": "Privacy-focused x402 payment relay - use it to make anonymous micropayments without revealing your wallet."
     },
     {
-      "rank": 4,
+      "rank": 9,
       "project_id": "14cbeb4b0e12",
       "project_name": "Agent Trust Gateway",
       "github_url": "https://github.com/nagavaishak/agent-trust-gateway",
@@ -599,7 +599,7 @@
       "pitch": "Trust scoring for AI agent transactions - use it to verify agent reputation before accepting payments."
     },
     {
-      "rank": 4,
+      "rank": 11,
       "project_id": "9b8cab47f8d1",
       "project_name": "x402-AI",
       "github_url": "https://github.com/mitgajera/x402-ai",
@@ -664,7 +664,7 @@
       "pitch": "AI assistant with built-in payments - use it to let your chatbot pay for external services on your behalf."
     },
     {
-      "rank": 4,
+      "rank": 12,
       "project_id": "5a8396d8879e",
       "project_name": "x402AI Assistant",
       "github_url": "https://github.com/olaoluwa057/AI-Assistant-x402.git",
@@ -726,7 +726,7 @@
       "pitch": "Personal AI that handles payments - use it to automate subscriptions and one-time purchases."
     },
     {
-      "rank": 4,
+      "rank": 13,
       "project_id": "d52f7e483000",
       "project_name": "Ora402",
       "github_url": "https://github.com/kracked-dev/ora-foro-to",
@@ -788,7 +788,7 @@
       "pitch": "Oracle service with x402 micropayments - use it to get real-time data feeds and pay only for what you query."
     },
     {
-      "rank": 4,
+      "rank": 14,
       "project_id": "6648e10ccbb4",
       "project_name": "RekonGG",
       "github_url": "https://github.com/BadGenius22/Rekon",
@@ -850,7 +850,7 @@
       "pitch": "Gaming rewards platform with x402 - use it to earn crypto for achievements and spend it on in-game items."
     },
     {
-      "rank": 4,
+      "rank": 15,
       "project_id": "d0919f094835",
       "project_name": "LinkSignX402",
       "github_url": "https://github.com/renzo4web/link-sign-402",
@@ -914,7 +914,7 @@
       "pitch": "Document signing with payment verification - use it to require payment before releasing signed contracts."
     },
     {
-      "rank": 4,
+      "rank": 16,
       "project_id": "04b451a1b2bc",
       "project_name": "x402-escrow",
       "github_url": "https://github.com/Agentokratia/x402-escrow",
@@ -1051,7 +1051,7 @@
       "pitch": "Data marketplace with micropayments - use it to buy/sell datasets with per-byte pricing."
     },
     {
-      "rank": 17,
+      "rank": 18,
       "project_id": "85c045446811",
       "project_name": "Vega Protocol",
       "github_url": "https://github.com/useVega/vega-protocol",
@@ -1120,7 +1120,7 @@
       "pitch": "DeFi derivatives with x402 integration - use it to trade options and pay fees via HTTP 402."
     },
     {
-      "rank": 17,
+      "rank": 18,
       "project_id": "b29f0f31586f",
       "project_name": "x402 Swarm",
       "github_url": "https://github.com/o8is/x402-swarm",
@@ -1334,7 +1334,7 @@
       "pitch": "Payment gateway for AI microservices - use it to monetize your ML models with per-request pricing."
     },
     {
-      "rank": 20,
+      "rank": 22,
       "project_id": "abe0f91aa1e4",
       "project_name": "Grantees",
       "github_url": "https://github.com/EstherLavender/Grantee",
@@ -1405,7 +1405,7 @@
       "pitch": "Grant distribution with milestone payments - use it to release funds as project goals are met."
     },
     {
-      "rank": 20,
+      "rank": 22,
       "project_id": "67313608846c",
       "project_name": "Polymarket AI Agent by BlockRunAI",
       "github_url": "https://github.com/BlockRunAI/polymarket-agent",
@@ -1480,82 +1480,7 @@
       "pitch": "An autonomous AI trading agent for prediction markets - use it to integrate x402 payments into your workflow."
     },
     {
-      "rank": 20,
-      "project_id": "da1b338fc909",
-      "project_name": "Polymarket AI Agent By @BlockrunAI",
-      "github_url": "https://github.com/BlockRunAI/polymarket-agent.git",
-      "demo_url": "https://x.com/bc1beat/status/2008380485781655800",
-      "description": "Multi-model AI agent that trades prediction markets autonomously using x402 micropayments",
-      "scores": {
-        "demo_functionality": 10.0,
-        "x402_integration": 8.0,
-        "code_quality": 6.5,
-        "completeness": 9.0,
-        "innovation": 4.0
-      },
-      "weighted_total": 8.22,
-      "normalized_score": 75.0,
-      "tied_with": [
-        "Pincher",
-        "Slophouse Cinema",
-        "x402energy",
-        "OpenFacilitator",
-        "Voiceswap",
-        "push",
-        "Agent Trust Gateway",
-        "x402-AI",
-        "x402AI Assistant",
-        "Ora402",
-        "RekonGG",
-        "LinkSignX402",
-        "x402-escrow",
-        "xByte",
-        "Vega Protocol",
-        "x402 Swarm",
-        "x402-exec Extensions - Enable on-chain Contract Calls for Agents",
-        "MicroAi-PayGate",
-        "Grantees",
-        "Polymarket AI Agent by BlockRunAI",
-        "yoda.gg",
-        "x402 Economic Load Balancer",
-        "nanoPay",
-        "yoda.fun",
-        "Bloom Protocol - Bloom Mission Bot",
-        "x402 Proxy",
-        "X402 Paywall Builder",
-        "everybid",
-        "Nexus Protocol",
-        "PredictOS - Prediction Market Intelligence",
-        "Cumulus",
-        "x402 Paywall",
-        "x402 answer book",
-        "WebAuthn x 402"
-      ],
-      "strengths": [
-        "Working demo with good functionality",
-        "Strong X402 protocol integration",
-        "Feature-complete implementation",
-        "Ready for deployment (docker)"
-      ],
-      "weaknesses": [
-        "Limited innovation beyond basic implementation",
-        "No tests found",
-        "Basic implementation without significant innovation"
-      ],
-      "feedback": [
-        "Add linting configuration for consistent code style",
-        "Add tests to improve reliability and maintainability"
-      ],
-      "flags": {
-        "timeline_issues": false,
-        "potential_plagiarism": false,
-        "exceptional_quality": false,
-        "missing_x402": false
-      },
-      "pitch": "Multi-model AI agent that trades prediction markets autonomously using x402 micropayments - use it to integrate x402 payments into your workflow."
-    },
-    {
-      "rank": 20,
+      "rank": 24,
       "project_id": "d9e0ceeec90c",
       "project_name": "yoda.gg",
       "github_url": "https://github.com/grmkris/yoda.fun",
@@ -1628,7 +1553,7 @@
       "pitch": "AI trading signals marketplace - use it to subscribe to alpha and pay per profitable signal."
     },
     {
-      "rank": 20,
+      "rank": 25,
       "project_id": "4f701fb6964c",
       "project_name": "x402 Economic Load Balancer",
       "github_url": "https://github.com/marcelosalloum/x402",
@@ -1704,7 +1629,7 @@
       "pitch": "Cost-optimized API routing - use it to automatically pick the cheapest provider for each request."
     },
     {
-      "rank": 20,
+      "rank": 26,
       "project_id": "69a6ebcee11c",
       "project_name": "nanoPay",
       "github_url": "https://github.com/mbarbosa30/x4llet",
@@ -1777,78 +1702,7 @@
       "pitch": "Nano-scale payment infrastructure - use it to process payments as small as fractions of a cent."
     },
     {
-      "rank": 28,
-      "project_id": "bda96dc02e13",
-      "project_name": "yoda.fun",
-      "github_url": "https://github.com/grmkris/yoda.fun",
-      "demo_url": "https://x.com/_krisgg/status/2008400961459388417",
-      "description": "An AI Oracle Prediction Market. Yoda browses the internet, creates prediction markets automatically, and resolves them with proof and sources. Humans and AI agents compete on the same leaderboard. Built with X402 payments (Base + Solana), ERC-8004 on-chain reputation, and MCP for agent participation. Can you trust an AI oracle?",
-      "scores": {
-        "demo_functionality": 7.6,
-        "x402_integration": 10.0,
-        "code_quality": 6.5,
-        "completeness": 9.5,
-        "innovation": 5.0
-      },
-      "weighted_total": 8.06,
-      "normalized_score": 72.1,
-      "tied_with": [
-        "OpenFacilitator",
-        "Voiceswap",
-        "push",
-        "Agent Trust Gateway",
-        "x402-AI",
-        "x402AI Assistant",
-        "Ora402",
-        "RekonGG",
-        "LinkSignX402",
-        "x402-escrow",
-        "xByte",
-        "Vega Protocol",
-        "x402 Swarm",
-        "x402-exec Extensions - Enable on-chain Contract Calls for Agents",
-        "MicroAi-PayGate",
-        "Grantees",
-        "Polymarket AI Agent by BlockRunAI",
-        "Polymarket AI Agent By @BlockrunAI",
-        "yoda.gg",
-        "x402 Economic Load Balancer",
-        "nanoPay",
-        "Bloom Protocol - Bloom Mission Bot",
-        "x402 Proxy",
-        "X402 Paywall Builder",
-        "everybid",
-        "Nexus Protocol",
-        "PredictOS - Prediction Market Intelligence",
-        "Cumulus",
-        "x402 Paywall",
-        "x402 answer book",
-        "WebAuthn x 402",
-        "Fortuner",
-        "Fortuner",
-        "Turnstile Pay — RaidGuild x402 Facilitator"
-      ],
-      "strengths": [
-        "Working demo with good functionality",
-        "Strong X402 protocol integration",
-        "Feature-complete implementation",
-        "Good test coverage",
-        "Oracle integration"
-      ],
-      "weaknesses": [],
-      "feedback": [
-        "Add linting configuration for consistent code style"
-      ],
-      "flags": {
-        "timeline_issues": false,
-        "potential_plagiarism": false,
-        "exceptional_quality": false,
-        "missing_x402": false
-      },
-      "pitch": "Social trading with x402 tips - use it to tip traders for good calls via micropayments."
-    },
-    {
-      "rank": 29,
+      "rank": 27,
       "project_id": "601a8a9ead2d",
       "project_name": "Bloom Protocol - Bloom Mission Bot",
       "github_url": "https://github.com/cBloomProtocol/social-reward-engine",
@@ -1920,7 +1774,7 @@
       "pitch": "Task completion with bounty payments - use it to pay agents for completing missions."
     },
     {
-      "rank": 30,
+      "rank": 28,
       "project_id": "b16d23b97aba",
       "project_name": "x402 Proxy",
       "github_url": "https://github.com/d3servelabs/labs-x402-tools",
@@ -1993,80 +1847,7 @@
       "pitch": "Payment proxy for legacy APIs - use it to add x402 to services that don't support it natively."
     },
     {
-      "rank": 30,
-      "project_id": "6e438941581c",
-      "project_name": "X402 Paywall Builder",
-      "github_url": "https://github.com/d3servelabs/labs-x402-tools",
-      "demo_url": "https://x.com/SamyMishal/status/2007856983626621177",
-      "description": "A visual builder for creating customizable x402 protocol paywall pages. Design beautiful, responsive payment pages for crypto micropayments with USDC - no code required.\nIt's a wrapper around a package that can be used in your projects, the package is a Customizable paywall HTML generator for the x402 protocol. the behaviour of the wall is controlled with meta-tags and headers (keeping in theme with the same concepts of x402 which is expanding the 402 response code behaviour)",
-      "scores": {
-        "demo_functionality": 7.8,
-        "x402_integration": 10.0,
-        "code_quality": 5.5,
-        "completeness": 8.5,
-        "innovation": 6.0
-      },
-      "weighted_total": 7.93,
-      "normalized_score": 69.8,
-      "tied_with": [
-        "RekonGG",
-        "LinkSignX402",
-        "x402-escrow",
-        "xByte",
-        "Vega Protocol",
-        "x402 Swarm",
-        "x402-exec Extensions - Enable on-chain Contract Calls for Agents",
-        "MicroAi-PayGate",
-        "Grantees",
-        "Polymarket AI Agent by BlockRunAI",
-        "Polymarket AI Agent By @BlockrunAI",
-        "yoda.gg",
-        "x402 Economic Load Balancer",
-        "nanoPay",
-        "yoda.fun",
-        "Bloom Protocol - Bloom Mission Bot",
-        "x402 Proxy",
-        "everybid",
-        "Nexus Protocol",
-        "PredictOS - Prediction Market Intelligence",
-        "Cumulus",
-        "x402 Paywall",
-        "x402 answer book",
-        "WebAuthn x 402",
-        "Fortuner",
-        "Fortuner",
-        "Turnstile Pay — RaidGuild x402 Facilitator",
-        "Agentokratia Marketplace",
-        "Termix A2A Trading Intelligence Marketplace",
-        "Attentium",
-        "OIDCx402 - Micropayments for decentralized identity",
-        "QueRate",
-        "Hyperkit"
-      ],
-      "strengths": [
-        "Working demo with good functionality",
-        "Strong X402 protocol integration",
-        "Feature-complete implementation",
-        "Uses official X402 SDK",
-        "Verifiable randomness"
-      ],
-      "weaknesses": [
-        "No tests found"
-      ],
-      "feedback": [
-        "Add linting configuration for consistent code style",
-        "Add tests to improve reliability and maintainability"
-      ],
-      "flags": {
-        "timeline_issues": false,
-        "potential_plagiarism": false,
-        "exceptional_quality": false,
-        "missing_x402": false
-      },
-      "pitch": "No-code paywall creator - use it to monetize any content with drag-and-drop payment gates."
-    },
-    {
-      "rank": 30,
+      "rank": 29,
       "project_id": "29a1d1b517b2",
       "project_name": "everybid",
       "github_url": "https://github.com/tatdz/everybid_mps",
@@ -2142,7 +1923,7 @@
       "pitch": "Auction platform with x402 deposits - use it to run auctions where bidders pay via HTTP 402."
     },
     {
-      "rank": 30,
+      "rank": 29,
       "project_id": "6a3981d86de7",
       "project_name": "Nexus Protocol",
       "github_url": "https://github.com/Animesh-Parashar/x402-nexus",
@@ -2217,7 +1998,7 @@
       "pitch": "Cross-chain payment routing - use it to pay in any token and settle in the merchant's preferred currency."
     },
     {
-      "rank": 30,
+      "rank": 31,
       "project_id": "6dcbc3fbe21a",
       "project_name": "PredictOS - Prediction Market Intelligence",
       "github_url": "https://github.com/PredictionXBT/PredictOS",
@@ -2291,7 +2072,7 @@
       "pitch": "AI predictions with paid confidence scores - use it to get probability estimates and pay more for higher accuracy."
     },
     {
-      "rank": 30,
+      "rank": 32,
       "project_id": "cd3481c5cce3",
       "project_name": "Cumulus",
       "github_url": "https://github.com/johnnyjclin/cumulus",
@@ -2366,7 +2147,7 @@
       "pitch": "Cloud compute marketplace - use it to rent GPU time and pay per second of usage."
     },
     {
-      "rank": 30,
+      "rank": 33,
       "project_id": "60ba914bcfae",
       "project_name": "x402 Paywall",
       "github_url": "https://github.com/d3servelabs/labs-paywall-402",
@@ -2441,7 +2222,7 @@
       "pitch": "Simple content paywall - use it to put articles behind a one-click micropayment."
     },
     {
-      "rank": 30,
+      "rank": 34,
       "project_id": "6aa3fbed101f",
       "project_name": "x402 answer book",
       "github_url": "https://github.com/jenniekusu/x402-answer-book",
@@ -2512,7 +2293,7 @@
       "pitch": "Q&A platform with paid answers - use it to charge for expert responses."
     },
     {
-      "rank": 30,
+      "rank": 35,
       "project_id": "0a40fced26a9",
       "project_name": "WebAuthn x 402",
       "github_url": "https://github.com/matt-cim/x402-hackathon",
@@ -2587,7 +2368,7 @@
       "pitch": "Hardware key authentication for payments - use it to approve x402 transactions with YubiKey."
     },
     {
-      "rank": 30,
+      "rank": 36,
       "project_id": "ea58ece2028a",
       "project_name": "Fortuner",
       "github_url": "https://github.com/FortuneTeller111/fortuner-app",
@@ -2656,76 +2437,7 @@
       "pitch": "Fortune telling AI with payments - use it to get personalized predictions for small fees."
     },
     {
-      "rank": 30,
-      "project_id": "ea58ece2028a",
-      "project_name": "Fortuner",
-      "github_url": "https://github.com/FortuneTeller111/fortuner-app",
-      "demo_url": "https://x.com/0xlisamarie/status/2008293337208598666?s=20",
-      "description": "Maintain edge on your prediction market trades by using Fortuner for on-demand real-time chance distribution data powered by x402 for pay-per-usage market intel model.",
-      "scores": {
-        "demo_functionality": 9.2,
-        "x402_integration": 8.0,
-        "code_quality": 5.0,
-        "completeness": 9.0,
-        "innovation": 4.0
-      },
-      "weighted_total": 7.72,
-      "normalized_score": 66.1,
-      "tied_with": [
-        "yoda.gg",
-        "x402 Economic Load Balancer",
-        "nanoPay",
-        "yoda.fun",
-        "Bloom Protocol - Bloom Mission Bot",
-        "x402 Proxy",
-        "X402 Paywall Builder",
-        "everybid",
-        "Nexus Protocol",
-        "PredictOS - Prediction Market Intelligence",
-        "Cumulus",
-        "x402 Paywall",
-        "x402 answer book",
-        "WebAuthn x 402",
-        "Turnstile Pay — RaidGuild x402 Facilitator",
-        "Agentokratia Marketplace",
-        "Termix A2A Trading Intelligence Marketplace",
-        "Attentium",
-        "OIDCx402 - Micropayments for decentralized identity",
-        "QueRate",
-        "Hyperkit",
-        "Aetherswarm",
-        "Aegis402",
-        "x402-facilitator-go",
-        "Aegis402",
-        "sAItoshi agent - Bitcoin chain info facilitator",
-        "Mnemonic Hunt",
-        "HILT: Human In Loop Transactions",
-        "Googolo wallet"
-      ],
-      "strengths": [
-        "Working demo with good functionality",
-        "Strong X402 protocol integration",
-        "Feature-complete implementation",
-        "Ready for deployment (vercel)"
-      ],
-      "weaknesses": [
-        "Limited innovation beyond basic implementation",
-        "No tests found",
-        "Basic implementation without significant innovation"
-      ],
-      "feedback": [
-        "Add tests to improve reliability and maintainability"
-      ],
-      "flags": {
-        "timeline_issues": false,
-        "potential_plagiarism": false,
-        "exceptional_quality": false,
-        "missing_x402": false
-      },
-      "pitch": "Fortune telling AI with payments - use it to get personalized predictions for small fees."
-    },
-    {
-      "rank": 41,
+      "rank": 37,
       "project_id": "a2894dcee574",
       "project_name": "Turnstile Pay — RaidGuild x402 Facilitator",
       "github_url": "https://github.com/raid-guild/x402-facilitator-go",
@@ -2791,7 +2503,7 @@
       "pitch": "Turnstile Pay is the missing payment layer for the agent economy - use it to integrate x402 payments into your workflow."
     },
     {
-      "rank": 42,
+      "rank": 38,
       "project_id": "3b1e2d8a68d8",
       "project_name": "Agentokratia Marketplace",
       "github_url": "https://github.com/agentokratia/agentokratia",
@@ -2864,7 +2576,7 @@
       "pitch": "Marketplace for AI agent services - use it to hire agents and pay for task completion."
     },
     {
-      "rank": 42,
+      "rank": 39,
       "project_id": "78165846a119",
       "project_name": "Termix A2A Trading Intelligence Marketplace",
       "github_url": "https://github.com/termixai-it/termix-x402",
@@ -2934,7 +2646,7 @@
       "pitch": "We are turning Termix’s existing trading agents into an economic system, where agents pay for conviction and verification instead of blindly calling APIs - use it to integrate x402 payments into your workflow."
     },
     {
-      "rank": 42,
+      "rank": 39,
       "project_id": "fceaffa02641",
       "project_name": "Attentium",
       "github_url": "https://github.com/blockpal1/Real-Time-Human-Attention-Marketplace.git",
@@ -3004,7 +2716,7 @@
       "pitch": "Attention marketplace - use it to pay people for focused engagement with your content."
     },
     {
-      "rank": 42,
+      "rank": 41,
       "project_id": "eb7505278de5",
       "project_name": "OIDCx402 - Micropayments for decentralized identity",
       "github_url": "https://github.com/lutralabs/x402-hackathon",
@@ -3077,7 +2789,7 @@
       "pitch": "Decentralized identity has advanced rapidly, with Verifiable Credentials commonly issued over standardized protocols like OpenID Connect (OIDC) - use it to integrate x402 payments into your workflow."
     },
     {
-      "rank": 42,
+      "rank": 41,
       "project_id": "7f71b99e0df0",
       "project_name": "QueRate",
       "github_url": "https://github.com/muhammadaus/querate-core",
@@ -3147,7 +2859,7 @@
       "pitch": "A decentralized content curation platform where community curates the sequence - not just quality - use it to integrate x402 payments into your workflow."
     },
     {
-      "rank": 42,
+      "rank": 43,
       "project_id": "8261b5924e9e",
       "project_name": "Hyperkit",
       "github_url": "https://github.com/Hyperkit-Labs/erc1066-x402",
@@ -3218,7 +2930,7 @@
       "pitch": "A set of Ethereum-compatible smart contracts that standardize status codes, policy checks, and intent validation for Web3 transactions, designed to integrate cleanly with an HTTP/x402 gateway and agent layer - use it to integrate x402 payments into your workflow."
     },
     {
-      "rank": 42,
+      "rank": 44,
       "project_id": "966cfb5d8e74",
       "project_name": "Aetherswarm",
       "github_url": "https://github.com/winsznx/aetherswarm",
@@ -3287,7 +2999,7 @@
       "pitch": "AetherSwarm is a decentralized AI agent marketplace where autonomous agents use x402 micropayments to access premium APIs, verify data with on-chain attestations, and synthesize knowledge artifacts stored on IPFS - use it to integrate x402 payments into your workflow."
     },
     {
-      "rank": 42,
+      "rank": 45,
       "project_id": "45bba20c1f36",
       "project_name": "Aegis402",
       "github_url": "https://github.com/capGoblin/Aegis402",
@@ -3359,151 +3071,7 @@
       "pitch": "Aegis402 is a Capital-Backed Credit Layer for x402 Agent Payments, powered by EigenCompute - use it to integrate x402 payments into your workflow."
     },
     {
-      "rank": 42,
-      "project_id": "37586ee63823",
-      "project_name": "x402-facilitator-go",
-      "github_url": "https://github.com/raid-guild/x402-facilitator-go",
-      "demo_url": "https://x.com/romeives/status/2007622872856949125",
-      "description": "A one-click deploy x402 facilitator. The facilitator supports v1 and v2 request formats, the exact payment scheme, and multiple networks. Additional schemes and networks can be added by extending the codebase. The facilitator leverages Vercel Functions and runs in a serverless environment. The facilitator also supports multiple authentication methods.",
-      "scores": {
-        "demo_functionality": 9.8,
-        "x402_integration": 5.0,
-        "code_quality": 4.5,
-        "completeness": 9.0,
-        "innovation": 7.0
-      },
-      "weighted_total": 7.4,
-      "normalized_score": 60.4,
-      "tied_with": [
-        "everybid",
-        "Nexus Protocol",
-        "PredictOS - Prediction Market Intelligence",
-        "Cumulus",
-        "x402 Paywall",
-        "x402 answer book",
-        "WebAuthn x 402",
-        "Fortuner",
-        "Fortuner",
-        "Turnstile Pay — RaidGuild x402 Facilitator",
-        "Agentokratia Marketplace",
-        "Termix A2A Trading Intelligence Marketplace",
-        "Attentium",
-        "OIDCx402 - Micropayments for decentralized identity",
-        "QueRate",
-        "Hyperkit",
-        "Aetherswarm",
-        "Aegis402",
-        "Aegis402",
-        "sAItoshi agent - Bitcoin chain info facilitator",
-        "Mnemonic Hunt",
-        "HILT: Human In Loop Transactions",
-        "Googolo wallet",
-        "PerkOS",
-        "DSX Engine - Decentralized Dataspace Connector with x402 Payment Protocol Support",
-        "Miye",
-        "BiTx402",
-        "Cheddr Payment Channels x402",
-        "Brolli by Optilex",
-        "x402 Kalshi Context Provider",
-        "x402-sf",
-        "Miraipay",
-        "x402 Private Payment Router"
-      ],
-      "strengths": [
-        "Working demo with good functionality",
-        "Feature-complete implementation",
-        "Innovative approach or use case",
-        "Ready for deployment (vercel)",
-        "Cross-chain support"
-      ],
-      "weaknesses": [
-        "Code quality could be improved"
-      ],
-      "feedback": [
-        "Add linting configuration for consistent code style"
-      ],
-      "flags": {
-        "timeline_issues": false,
-        "potential_plagiarism": false,
-        "exceptional_quality": false,
-        "missing_x402": false
-      },
-      "pitch": "A one-click deploy x402 facilitator - use it to integrate x402 payments into your workflow."
-    },
-    {
-      "rank": 42,
-      "project_id": "45bba20c1f36",
-      "project_name": "Aegis402",
-      "github_url": "https://github.com/capGoblin/Aegis402",
-      "demo_url": "https://x.com/dharshan_tw/status/2008265094648787090",
-      "description": "Aegis402 is a Capital-Backed Credit Layer for x402 Agent Payments. Service agents stake, and we compute a credit limit from stake × ERC-8004 reputation. Clients pay agents directly via x402, and if a service agent fails or ghosts, the client is compensated from the agent’s collateral. This turns x402 from “pay and hope they deliver” into “pay and get guaranteed delivery by collateral and credit.”",
-      "scores": {
-        "demo_functionality": 7.0,
-        "x402_integration": 10.0,
-        "code_quality": 5.5,
-        "completeness": 7.5,
-        "innovation": 5.0
-      },
-      "weighted_total": 7.4,
-      "normalized_score": 60.4,
-      "tied_with": [
-        "everybid",
-        "Nexus Protocol",
-        "PredictOS - Prediction Market Intelligence",
-        "Cumulus",
-        "x402 Paywall",
-        "x402 answer book",
-        "WebAuthn x 402",
-        "Fortuner",
-        "Fortuner",
-        "Turnstile Pay — RaidGuild x402 Facilitator",
-        "Agentokratia Marketplace",
-        "Termix A2A Trading Intelligence Marketplace",
-        "Attentium",
-        "OIDCx402 - Micropayments for decentralized identity",
-        "QueRate",
-        "Hyperkit",
-        "Aetherswarm",
-        "x402-facilitator-go",
-        "sAItoshi agent - Bitcoin chain info facilitator",
-        "Mnemonic Hunt",
-        "HILT: Human In Loop Transactions",
-        "Googolo wallet",
-        "PerkOS",
-        "DSX Engine - Decentralized Dataspace Connector with x402 Payment Protocol Support",
-        "Miye",
-        "BiTx402",
-        "Cheddr Payment Channels x402",
-        "Brolli by Optilex",
-        "x402 Kalshi Context Provider",
-        "x402-sf",
-        "Miraipay",
-        "x402 Private Payment Router"
-      ],
-      "strengths": [
-        "Working demo with good functionality",
-        "Strong X402 protocol integration",
-        "Feature-complete implementation",
-        "Subscription model"
-      ],
-      "weaknesses": [
-        "No tests found"
-      ],
-      "feedback": [
-        "Add linting configuration for consistent code style",
-        "Add tests to improve reliability and maintainability",
-        "Expand README with setup instructions and screenshots"
-      ],
-      "flags": {
-        "timeline_issues": false,
-        "potential_plagiarism": false,
-        "exceptional_quality": false,
-        "missing_x402": false
-      },
-      "pitch": "Aegis402 is a Capital-Backed Credit Layer for x402 Agent Payments - use it to integrate x402 payments into your workflow."
-    },
-    {
-      "rank": 42,
+      "rank": 46,
       "project_id": "f47b05292fc2",
       "project_name": "sAItoshi agent - Bitcoin chain info facilitator",
       "github_url": "https://github.com/Concorde89/sAItoshi",
@@ -3572,7 +3140,7 @@
       "pitch": "A monetized API gateway for Bitcoin Core full node data using the x402 protocol for HTTP-native micropayments - use it to integrate x402 payments into your workflow."
     },
     {
-      "rank": 53,
+      "rank": 47,
       "project_id": "d56f59790bea",
       "project_name": "Mnemonic Hunt",
       "github_url": "https://github.com/AvinashNayak27/x402-game",
@@ -3644,7 +3212,7 @@
       "pitch": "Mnemonic Hunt is an onchain puzzle game where a Base wallet holding 100 USDC is locked behind a 24 word BIP39 mnemonic that no human ever sees - use it to integrate x402 payments into your workflow."
     },
     {
-      "rank": 53,
+      "rank": 48,
       "project_id": "582bbe5773ba",
       "project_name": "HILT: Human In Loop Transactions",
       "github_url": "https://github.com/prvndev/hilt",
@@ -3709,7 +3277,7 @@
       "pitch": "HILT is a middleware solution for autonomous agent economies (e - use it to integrate x402 payments into your workflow."
     },
     {
-      "rank": 53,
+      "rank": 49,
       "project_id": "1097d169a45f",
       "project_name": "Googolo wallet",
       "github_url": "https://github.com/GideonNut/Googolo",
@@ -3773,7 +3341,7 @@
       "pitch": "Voice agent that sends money to people - use it to integrate x402 payments into your workflow."
     },
     {
-      "rank": 56,
+      "rank": 50,
       "project_id": "d368f11cdd61",
       "project_name": "PerkOS",
       "github_url": "https://github.com/PerkOS-xyz/PerkOS",
@@ -3842,7 +3410,7 @@
       "pitch": "PerkOS is the complete x402 payment infrastructure with three core components:  Spark — No-code AI agent launcher - use it to integrate x402 payments into your workflow."
     },
     {
-      "rank": 56,
+      "rank": 51,
       "project_id": "0595ac0ca0c9",
       "project_name": "DSX Engine - Decentralized Dataspace Connector with x402 Payment Protocol Support",
       "github_url": "https://github.com/blockchain-lab-um/dataspaces-front-end-demo",
@@ -3909,7 +3477,7 @@
       "pitch": "DSX Engine is a truly decentralized dataspace connector built on top of Eclipse Dataspace Components, designed to enable secure, sovereign, and interoperable data exchange without relying on central intermediaries - use it to integrate x402 payments into your workflow."
     },
     {
-      "rank": 56,
+      "rank": 51,
       "project_id": "b0b48da3f44f",
       "project_name": "Miye",
       "github_url": "https://github.com/kingksjo/swap-agent",
@@ -3974,7 +3542,7 @@
       "pitch": "Token swap agent - use it to automate DEX trades with payment for execution."
     },
     {
-      "rank": 56,
+      "rank": 53,
       "project_id": "aea60523de7e",
       "project_name": "BiTx402",
       "github_url": "https://github.com/Kshitij0O7/bitquery-x402",
@@ -4042,7 +3610,7 @@
       "pitch": "'- Problem Blockchain analytics are powerful but difficult to monetize flexibly - use it to integrate x402 payments into your workflow."
     },
     {
-      "rank": 56,
+      "rank": 54,
       "project_id": "751a04fdbf66",
       "project_name": "Cheddr Payment Channels x402",
       "github_url": "https://github.com/CPC-Development/x402-hackathon",
@@ -4113,7 +3681,7 @@
       "pitch": "Cheddr Payment Channels for x402 a new payment scheme (v1-eip155-cpc) that replaces per-request on-chain settlement with off-chain EIP‑712 signed receipts - use it to integrate x402 payments into your workflow."
     },
     {
-      "rank": 56,
+      "rank": 55,
       "project_id": "6caac10f58ae",
       "project_name": "Brolli by Optilex",
       "github_url": "https://github.com/Optilex-Labs/brolli-x402",
@@ -4182,7 +3750,7 @@
       "pitch": "Browser extension for x402 - use it to seamlessly pay for content as you browse."
     },
     {
-      "rank": 56,
+      "rank": 55,
       "project_id": "fdfc968410f5",
       "project_name": "x402 Kalshi Context Provider",
       "github_url": "https://github.com/gurubazawada/Kalshi-x402-contextprovider",
@@ -4251,7 +3819,7 @@
       "pitch": "Kalshi data with x402 access - use it to get prediction market data via paid API."
     },
     {
-      "rank": 63,
+      "rank": 57,
       "project_id": "c644e1713ee1",
       "project_name": "x402-sf",
       "github_url": "https://github.com/superfluid-org/x402-sf",
@@ -4321,7 +3889,7 @@
       "pitch": "An extension to x402 allowing to create superfluid payment streams with a single signature opening up the world of subscriptions with just a single API call - use it to integrate x402 payments into your workflow."
     },
     {
-      "rank": 63,
+      "rank": 58,
       "project_id": "c4c92105d2ae",
       "project_name": "Miraipay",
       "github_url": "https://github.com/muskiteer/Miraipay",
@@ -4391,7 +3959,7 @@
       "pitch": "MiraiPay is a decentralized AI-powered marketplace designed to help developers earn from their APIs through automatic blockchain-based payments - use it to integrate x402 payments into your workflow."
     },
     {
-      "rank": 63,
+      "rank": 59,
       "project_id": "be0f3c3a02c1",
       "project_name": "x402 Private Payment Router",
       "github_url": "https://github.com/masaun/x402-private-payment-router",
@@ -4457,7 +4025,7 @@
       "pitch": "The x402 Private Payment Router is a privacy-preserving payment infrastructure built on Aztec Network (Programming Language: Noir) that enables AI agents and users to conduct confidential micropayments - use it to integrate x402 payments into your workflow."
     },
     {
-      "rank": 66,
+      "rank": 60,
       "project_id": "e6c4f89ba8e2",
       "project_name": "x402 Shop",
       "github_url": "https://github.com/mariocana/x402-shop",
@@ -4522,7 +4090,7 @@
       "pitch": "x402-Shop is a serverless, permissionless platform for selling digital assets - use it to integrate x402 payments into your workflow."
     },
     {
-      "rank": 66,
+      "rank": 61,
       "project_id": "4bdabde4ad95",
       "project_name": "Simmer.Markets",
       "github_url": "https://github.com/SpartanLabsXyz/x402-prediction-trading-agent",
@@ -4585,7 +4153,7 @@
       "pitch": "AI-native prediction markets where AI agents autonomously trade and pay for their own intelligence via x402 - use it to integrate x402 payments into your workflow."
     },
     {
-      "rank": 68,
+      "rank": 62,
       "project_id": "96d14f22229b",
       "project_name": "Texas Arena",
       "github_url": "https://github.com/bdsntc/Texas-Arena.git",
@@ -4649,7 +4217,7 @@
       "pitch": "Bet on AI in live Texas Hold’em matches - use it to integrate x402 payments into your workflow."
     },
     {
-      "rank": 68,
+      "rank": 63,
       "project_id": "94b449d1a92d",
       "project_name": "x402 Shopify App",
       "github_url": "https://github.com/ofemeteng/x402-shopify-app",
@@ -4714,7 +4282,7 @@
       "pitch": "A Shopify app that enables merchants to accept crypto payments through the x402 v2 protocol - use it to integrate x402 payments into your workflow."
     },
     {
-      "rank": 70,
+      "rank": 64,
       "project_id": "384248d17b17",
       "project_name": "Estate Tokens-Tokenizing Real World Assets",
       "github_url": "https://github.com/kshitij011/x402-rwa-evm",
@@ -4777,7 +4345,7 @@
       "pitch": "Estate Tokens is a decentralized platform that tokenizes real-world properties into fractional ownership shares - use it to integrate x402 payments into your workflow."
     },
     {
-      "rank": 70,
+      "rank": 65,
       "project_id": "a812947ce221",
       "project_name": "invite.markets",
       "github_url": "https://github.com/apoorvlathey/invite-markets",
@@ -4840,7 +4408,7 @@
       "pitch": "Buy & sell invite links or access codes to the hottest web3 apps - instantly - use it to integrate x402 payments into your workflow."
     },
     {
-      "rank": 70,
+      "rank": 66,
       "project_id": "6a00cf672920",
       "project_name": "AI Data Broker",
       "github_url": "https://github.com/themaden/a--data-broker",
@@ -4899,7 +4467,7 @@
       "pitch": "A machine-to-machine marketplace infrastructure designed to democratize access to high-value data - use it to integrate x402 payments into your workflow."
     },
     {
-      "rank": 70,
+      "rank": 67,
       "project_id": "ea43bc5d93f8",
       "project_name": "x402-guard",
       "github_url": "https://github.com/koki1610168/x402-guard",
@@ -4958,7 +4526,7 @@
       "pitch": "x402-guard adds application-layer guardrails to autonomous x402 payments, preventing runaway retries and unsafe follow-up payments by enforcing deterministic policies on payment selection, budgets, and response validity without modifying the x402 protocol - use it to integrate x402 payments into your workflow."
     },
     {
-      "rank": 70,
+      "rank": 68,
       "project_id": "3d4a99b1a29f",
       "project_name": "DNS402",
       "github_url": "https://github.com/dns402/dns402",
@@ -5017,7 +4585,7 @@
       "pitch": "DNS with payment requirements - use it to gate domain resolution behind micropayments."
     },
     {
-      "rank": 75,
+      "rank": 69,
       "project_id": "bffc442a731b",
       "project_name": "Autoincentive Weather Forecast /x402/ Agent",
       "github_url": "https://github.com/Concorde89/autoincentive",
@@ -5075,7 +4643,7 @@
       "pitch": "The Weather x402 API - pay-per-use weather data with USDC micropayments on Base mainnet - use it to integrate x402 payments into your workflow."
     },
     {
-      "rank": 75,
+      "rank": 69,
       "project_id": "0f8a731b2aff",
       "project_name": "aimo.bet",
       "github_url": "https://github.com/AIMOverse/aimo-bet",
@@ -5135,7 +4703,7 @@
       "pitch": "LLMs Prediction Market Arena - use it to integrate x402 payments into your workflow."
     },
     {
-      "rank": 75,
+      "rank": 71,
       "project_id": "c991fff162a5",
       "project_name": "AgentECHO",
       "github_url": "https://github.com/galaar-org/AgentECHO",
@@ -5195,7 +4763,7 @@
       "pitch": "A free and open-source analytics engine for API vendors - use it to integrate x402 payments into your workflow."
     },
     {
-      "rank": 78,
+      "rank": 72,
       "project_id": "fdf0d3251e27",
       "project_name": "Credpay",
       "github_url": "https://github.com/jelilat/credpay-x402-demo",
@@ -5252,7 +4820,7 @@
       "pitch": "Credpay is a zero-interest crypto credit layer that lets users access real-world spending without liquidating their assets - use it to integrate x402 payments into your workflow."
     },
     {
-      "rank": 78,
+      "rank": 73,
       "project_id": "5e4392bc9d22",
       "project_name": "NodusAi",
       "github_url": "https://github.com/luacantu/NodusAI-Your-Prediction-Oracle.git",
@@ -5309,7 +4877,7 @@
       "pitch": "NodusAI is an Oracle API that produces grounded, probabilistic market signals - use it to integrate x402 payments into your workflow."
     },
     {
-      "rank": 80,
+      "rank": 74,
       "project_id": "0018a4612424",
       "project_name": "Project Yurei",
       "github_url": "https://github.com/projectyurei/x402-yurei-agent-access",
@@ -5362,7 +4930,7 @@
       "pitch": "YUREI x402 Agent Gateway enables permissionless, agent-to-agent access to on-chain AI intelligence using x402 micropayments - use it to integrate x402 payments into your workflow."
     },
     {
-      "rank": 80,
+      "rank": 75,
       "project_id": "91aec1eb91d9",
       "project_name": "PPS - Pay per second video streaming",
       "github_url": "https://github.com/pblvrt/pps",
@@ -5414,7 +4982,7 @@
       "pitch": "Video streaming with per-second billing - use it to watch content and pay only for time viewed."
     },
     {
-      "rank": 82,
+      "rank": 76,
       "project_id": "ed6c9b0544f9",
       "project_name": "Synapse Gateway",
       "github_url": "https://github.com/OOBE-PROTOCOL/x402-synapse-rpc-server",
@@ -5465,7 +5033,7 @@
       "pitch": "Synapse is a Solana-native access and observability layer for on-chain data, built on top of the x402 protocol - use it to integrate x402 payments into your workflow."
     },
     {
-      "rank": 83,
+      "rank": 77,
       "project_id": "1a22debb882b",
       "project_name": "Verifiable Green Compute Network",
       "github_url": "https://github.com/lektra-labs/verifiable-compute-network",
@@ -5518,7 +5086,7 @@
       "pitch": "Verifiable Green Compute Network is a protocol router for AI content generation on green distributed compute - use it to integrate x402 payments into your workflow."
     },
     {
-      "rank": 84,
+      "rank": 78,
       "project_id": "6cee201907b0",
       "project_name": "Autostack DCA",
       "github_url": "https://github.com/kamalbuilds/AutoStack-DCA",
@@ -5565,7 +5133,7 @@
       "pitch": "AutoStack DCA is a non-custodial dollar cost averaging platform on Base Mainnet that revolutionizes how retail traders execute DCA strategies - use it to integrate x402 payments into your workflow."
     },
     {
-      "rank": 85,
+      "rank": 79,
       "project_id": "68d781862f0f",
       "project_name": "X402 Autonomous Node",
       "github_url": "https://github.com/RMS1806/X402",
@@ -5614,7 +5182,7 @@
       "pitch": "An autonomous AI agent that negotiates and pays for premium market signals on-chain using the HTTP 402 protocol - use it to integrate x402 payments into your workflow."
     },
     {
-      "rank": 86,
+      "rank": 80,
       "project_id": "fd24f6f9af3d",
       "project_name": "VELO",
       "github_url": "https://github.com/GoSTEAN/velo",
@@ -5664,7 +5232,7 @@
       "pitch": "Multi-chain velocity payments - use it to stream payments across different blockchains."
     },
     {
-      "rank": 86,
+      "rank": 80,
       "project_id": "9808697356e3",
       "project_name": "Agent-Native Public Goods Sustainability",
       "github_url": "https://github.com/hanksfanAI/agent-native-public-goods-sustainability",
@@ -5712,7 +5280,7 @@
       "pitch": "This project introduces an agent-native funding mechanism that gives DAOs sustainable treasury inflows for public goods, through agent-managed micro-contributions via x402 - use it to integrate x402 payments into your workflow."
     },
     {
-      "rank": 86,
+      "rank": 82,
       "project_id": "71818857da4e",
       "project_name": "SongCast",
       "github_url": "https://github.com/Dabus123/song-agent",
@@ -5761,7 +5329,7 @@
       "pitch": "SongCast builds the music layer on Zora - use it to integrate x402 payments into your workflow."
     },
     {
-      "rank": 89,
+      "rank": 83,
       "project_id": "458688129d9c",
       "project_name": "medicProof",
       "github_url": "https://github.com/juanitourquiza/medicProof",
@@ -5815,7 +5383,7 @@
       "pitch": "Medical record verification - use it to share health data with payment for access."
     },
     {
-      "rank": 90,
+      "rank": 84,
       "project_id": "f31b38a5ac38",
       "project_name": "Bluepages.fyi",
       "github_url": "https://github.com/bluepageseth/bluepages_examples",
@@ -5862,7 +5430,7 @@
       "pitch": "Quickly look up if Ethereum addresses are publicly linked to Twitter or other social media accounts with x402 payments - use it to integrate x402 payments into your workflow."
     },
     {
-      "rank": 90,
+      "rank": 85,
       "project_id": "771efd523411",
       "project_name": "Route402",
       "github_url": "https://github.com/d3servelabs/labs-route-402",
@@ -5910,7 +5478,7 @@
       "pitch": "Multi‑tenant x402 facilitator router/proxy that presents a facilitator‑compatible API (/verify, /settle, /supported) and picks the best provider per request using a YAML ruleset - use it to integrate x402 payments into your workflow."
     },
     {
-      "rank": 90,
+      "rank": 86,
       "project_id": "bdda362ef538",
       "project_name": "x402 Singularity Layer",
       "github_url": "https://github.com/ivaavimusic/SGL_DOCS_2025.git",
@@ -5957,7 +5525,7 @@
       "pitch": "x402 Singularity Layer is a unified commerce and payment layer for both humans and agents - use it to integrate x402 payments into your workflow."
     },
     {
-      "rank": 93,
+      "rank": 87,
       "project_id": "987a8cd3dd97",
       "project_name": "MBCompass",
       "github_url": "https://github.com/CompassMB/MBCompass",
@@ -6005,7 +5573,7 @@
       "pitch": "Navigation with paid premium features - use it to unlock advanced routing for micropayments."
     },
     {
-      "rank": 94,
+      "rank": 88,
       "project_id": "7340ef060841",
       "project_name": "AgentARC",
       "github_url": "https://github.com/galaar-org/AgentARC",
@@ -6050,7 +5618,7 @@
       "pitch": "AgentARC is an free and open-source security layer for AI agents that transact on-chain - use it to integrate x402 payments into your workflow."
     },
     {
-      "rank": 95,
+      "rank": 89,
       "project_id": "f20095a33719",
       "project_name": "PolyPick6.com",
       "github_url": "https://github.com/open-biz/polypick6",
@@ -6094,7 +5662,7 @@
       "pitch": "Parlays for Polymarket  - We drew inspiration from Horse Betting to frame these parlays on Polymarket - use it to integrate x402 payments into your workflow."
     },
     {
-      "rank": 96,
+      "rank": 90,
       "project_id": "72ff49e5ce0b",
       "project_name": "ONE – 47-line morphing app + x402 payments",
       "github_url": "https://github.com/weaverofone/ONE-morph-engine",
