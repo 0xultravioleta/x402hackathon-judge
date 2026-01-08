@@ -17,6 +17,9 @@ def load_video_links(csv_path: str) -> dict:
             name = row.get('Project name', '').strip()
             video = row.get('Link to 2 minute live product demo', '').strip()
             if name and video:
+                # Handle multiple URLs separated by comma - take the first one
+                if ',' in video:
+                    video = video.split(',')[0].strip()
                 links[normalize_name(name)] = video
     return links
 
