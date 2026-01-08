@@ -9,7 +9,7 @@
 | 1 | [x402r](projects/x402r.md) | [Video](https://x.com/x402rorg/status/2008434071769158071) | 9.6 | 10.0 | 8.5 | 10.0 | 10.0 | **9.63** |
 | 1 | [Oops!402](projects/oops402.md) | [Video](https://x.com/oops402pay/status/2007956103372382718) | 10.0 | 10.0 | 8.0 | 10.0 | 9.0 | **9.60** |
 | 1 | [Synapse](projects/synapse.md) | [Video](https://x.com/KaushtubhAgraw1/status/2008448108813009140?s=20) | 10.0 | 10.0 | 7.0 | 10.0 | 10.0 | **9.55** |
-| 4 | [Pincher](projects/pincher.md) | [Video](https://x.com/0xjh1nr3sh/status/2008023587786199206?s=20, https://base.app/content/EkUKQwoVbmV0d29ya3MvYmFzZS1tYWlubmV0EioweDdlMjYzNjQxMTRkZTZhOWQxM2IzZmM3YjQzMjc2ZDVhZmNlNDMyYTk) | 7.6 | 10.0 | 10.0 | 10.0 | 5.0 | **8.66** |
+| 4 | [Pincher](projects/pincher.md) | [Video](https://x.com/0xjh1nr3sh/status/2008023587786199206) | 7.6 | 10.0 | 10.0 | 10.0 | 5.0 | **8.66** |
 | 4 | [Slophouse Cinema](projects/slophouse_cinema.md) | [Video](https://x.com/CrackedUnc/status/2008422122742219262) | 9.4 | 10.0 | 5.5 | 10.0 | 5.0 | **8.62** |
 | 4 | [x402energy](projects/x402energy.md) | [Video](https://x.com/gwess/status/2008129051563868521) | 8.0 | 10.0 | 6.5 | 10.0 | 8.0 | **8.57** |
 | 4 | [OpenFacilitator](projects/openfacilitator.md) | [Video](https://x.com/rawgroundbeef/status/2007911706022772943) | 7.8 | 10.0 | 8.0 | 10.0 | 6.0 | **8.53** |
