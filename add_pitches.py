@@ -127,12 +127,7 @@ def update_rankings_md(md_path: str, pitches: dict):
             if match:
                 project_name = match.group(1)
                 pitch = pitches.get(project_name, '-')
-                # Truncate pitch for table display
-                if len(pitch) > 80:
-                    short_pitch = pitch[:77] + '...'
-                else:
-                    short_pitch = pitch
-                line = line.rstrip(' |') + f' {short_pitch} |'
+                line = line.rstrip(' |') + f' {pitch} |'
 
         new_lines.append(line)
 
